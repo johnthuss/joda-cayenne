@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-map xmlns="http://cayenne.apache.org/schema/10/modelMap"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://cayenne.apache.org/schema/10/modelMap https://cayenne.apache.org/schema/10/modelMap.xsd"
+	 project-version="10">
+	<property name="defaultPackage" value="com.icsusa.cayenne"/>
+	<db-entity name="JodaEntity">
+		<db-attribute name="id" type="BIGINT" isPrimaryKey="true" isMandatory="true"/>
+		<db-attribute name="someString" type="VARCHAR" length="255"/>
+		<db-attribute name="timeUpdated" type="TIMESTAMP" isMandatory="true"/>
+	</db-entity>
+	<obj-entity name="JodaEntity" className="com.icsusa.cayenne.JodaEntity" dbEntityName="JodaEntity">
+		<obj-attribute name="timeUpdated" type="org.joda.time.LocalDateTime" db-attribute-path="timeUpdated"/>
+		<obj-attribute name="someString" type="java.lang.String" db-attribute-path="someString"/>
+	</obj-entity>
+</data-map>
