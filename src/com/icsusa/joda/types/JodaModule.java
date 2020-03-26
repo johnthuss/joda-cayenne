@@ -28,7 +28,7 @@ import org.slf4j.LoggerFactory;
 
 
 /**
- * Auto-loadable Cayenne module that adds support for Joda {@link org.apache.cayenne.access.types.ExtendedType} types.
+ * Auto-loadable Cayenne 4.2+ module that adds support for Joda {@link org.apache.cayenne.access.types.ExtendedType} types.
  *
  */
 public class JodaModule implements Module {

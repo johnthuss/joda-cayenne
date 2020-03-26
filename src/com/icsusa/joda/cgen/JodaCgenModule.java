@@ -22,6 +22,8 @@ package com.icsusa.joda.cgen;
 import org.apache.cayenne.di.Binder;
 import org.apache.cayenne.di.Module;
 import org.apache.cayenne.gen.CgenModule;
+import org.apache.cayenne.gen.DefaultToolsUtilsFactory;
+import org.apache.cayenne.gen.ToolsUtilsFactory;
 import org.apache.cayenne.gen.property.NumericPropertyDescriptorCreator;
 import org.joda.time.LocalDateTime;
 
@@ -34,7 +36,9 @@ public class JodaCgenModule implements Module {
     @Override
     public void configure(Binder binder) {
 //    	BasicConfigurator.configure();
-    	System.out.println("Registering JodaPropertyDescriptorCreator - "  + LocalDateTime.now());
+//        binder.bind(ToolsUtilsFactory.class).to(JodaImportUtilsFactory.class);
+
+    	System.out.println("Registering MyTools and JodaPropertyDescriptorCreator - "  + LocalDateTime.now());
     	CgenModule.contributeUserProperties(binder)
         	.insertBefore(JodaPropertyDescriptorCreator.class, NumericPropertyDescriptorCreator.class);
     }

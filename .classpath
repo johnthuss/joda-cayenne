@@ -8,17 +8,17 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="lib" path="lib/joda-time-2.1.jar"/>
-	<classpathentry kind="lib" path="lib/cayenne-ant-4.2.M1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="lib/cayenne-cgen-4.2.M1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="lib/cayenne-dbsync-4.2.M1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="lib/cayenne-di-4.2.M1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="lib/cayenne-project-4.2.M1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="lib/cayenne-server-4.2.M1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="lib/cayenne-velocity-4.2.M1-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="lib/commons-lang3-3.5.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar"/>
 	<classpathentry kind="lib" path="lib/velocity-engine-core-2.0.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/cayenne-ant-4.2.M1.jar"/>
+	<classpathentry kind="lib" path="lib/cayenne-cgen-4.2.M1.jar"/>
+	<classpathentry kind="lib" path="lib/cayenne-dbsync-4.2.M1.jar"/>
+	<classpathentry kind="lib" path="lib/cayenne-di-4.2.M1.jar"/>
+	<classpathentry kind="lib" path="lib/cayenne-project-4.2.M1.jar"/>
+	<classpathentry kind="lib" path="lib/cayenne-server-4.2.M1.jar"/>
+	<classpathentry kind="lib" path="lib/cayenne-velocity-4.2.M1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

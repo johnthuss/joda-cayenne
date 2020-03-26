@@ -6,7 +6,7 @@ import java.util.Collections;
 import org.apache.cayenne.di.Module;
 import org.apache.cayenne.tools.CayenneToolsModuleProvider;
 
-public class JodaModuleServerProvider implements CayenneToolsModuleProvider {
+public class JodaCgenModuleProvider implements CayenneToolsModuleProvider {
 	
     public Module module() {
         return new JodaCgenModule();
